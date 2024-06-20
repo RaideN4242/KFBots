@@ -1491,6 +1491,8 @@ function YellAt(Pawn Moron)
 
 	Mute.NextYellTime = Level.TimeSeconds+5.f+3.f*FRand();
 	SendMessage(None, 'INSULT', 1, 5, ''); // Insult Players
+	SendChatMsg("Fuck YOU, "$Moron.GetHumanReadableName()$" !!! Hy Tbl u GANDON");
+	SendChatMsg("Tbl ZAEBAL Pidor Suka HAXYU !!! B zhopy sebe strelyai, MYDAK !!!!");
 }
 function NotifyKilled(Controller Killer, Controller Killed, pawn KilledPawn)
 {
